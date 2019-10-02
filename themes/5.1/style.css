@@ -1,0 +1,174 @@
+/*
+Theme Name: NumClique
+Theme URI: http://www.numclique.net
+Description: Tema 2012
+Version: 5.1
+Author: Joares Miranda
+*/
+
+
+* { margin:0; padding:0; }
+
+body { font:normal 14px Arial, Helvetica, sans-serif; color:#333; }
+
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+a img { border:none; }
+
+
+/* TOPO */
+#Header { background:url(imagens/bg-header.gif) repeat-x top left; margin:10px 0; height:200px; }
+#Topo { width:960px; height:190px; margin:auto; position:relative; background:url(imagens/icone-numclique.png) no-repeat bottom right; }
+#Topo h1 { text-indent:-5000px; overflow:hidden; background:url(imagens/logo.png) no-repeat top left; width:311px; height:107px; position:relative; top:50px; }
+#Topo h1 a { width:311px; height:107px; display:block; }
+
+#Busca { width:305px; position:absolute; top:20px; right:0; }
+#Busca fieldset { border:none; }
+#Busca legend,
+#Busca label { display:none; }
+#Busca form { background:url(imagens/bg-busca.gif) no-repeat top left; width:302px; height:37px; margin-bottom:8px; }
+#Busca #s { width:245px; height:28px; padding:2px 5px; position:relative; top:2px; left:2px; border:none; }
+#Buscar { border:none; text-indent:-5000px; overflow:hidden; background:url(imagens/bt-busca.gif) no-repeat top left; width:27px; height:27px; cursor:pointer; position:relative; top:3px; left:4px; }
+
+#SuperBanner { width:728px; height:90px; margin:0 auto 10px auto; }
+
+/* MENU */
+#Menu { background-color:#FC0; padding:5px 0; margin-bottom:10px; }
+#Menu ul { width:960px; margin:0 auto; position:relative; list-style:none; text-align:right; }
+#Menu ul li { font:normal 20px 'Terminal Dosis Light', arial, serif; display:inline; border-left:1px solid #333; padding-left:15px; margin-left:15px; }
+#Menu ul li a { color:#333; }
+#Menu ul li:first-child { border:none; }
+
+
+/* MAIN */
+#Main { width:960px; margin:0 auto 20px auto; }
+
+#Content { width:630px; float:left; }
+.CxPost { border-bottom:5px solid #F4F4F4; margin-bottom:20px; padding-bottom:20px; }
+.tpPost { border-left:10px solid #FC0; padding-left:15px; margin-bottom:10px; }
+.tpPost a { color:#333; }
+.tpPost p { font:normal 18px 'Terminal Dosis Light', arial, serif; }
+.tpPost h2 { font:normal 36px 'Terminal Dosis Light', arial, serif; }
+
+.txtPost { line-height:22px; }
+.txtPost p { margin-bottom:15px; }
+.txtPost a { color:#F90; }
+.txtPost h2 { font:normal 30px 'Terminal Dosis Light', arial, serif; margin:20px 0 10px 0; border-left:5px solid #F4F4F4; padding-left:10px; }
+.txtPost h3 { font:normal 30px 'Terminal Dosis Light', arial, serif; margin:20px 0 10px 0; border-left:5px solid #F4F4F4; padding-left:10px; }
+blockquote { width:585px; margin-top:10px; padding:10px 10px 10px 35px; background:url(imagens/bg-blockquote.gif) no-repeat top left; color:#666; text-align:left; font-style:italic; }
+blockquote cite { margin-top:10px; display: block; }
+/* alinhamentos */
+.txtPost img.esquerda,
+.txtPost img.imgalignleft,
+.txtPost img.alignleft,
+.txtPost div.alignleft { margin:0px 10px 5px 0px; float:left; }
+.txtPost img.direita,
+.txtPost img.imgalignright,
+.txtPost img.alignright,
+.txtPost div.alignright { margin:0px 0px 5px 10px; float:right; }
+.txtPost img.aligncenter,
+.txtPost div.aligncenter { margin:0px auto 5px auto; clear:both; text-align:center; }
+.txtPost .paginador { clear:both; text-align:center; position:relative; top:20px; }
+.aligncenter,
+p object,
+.flashvideo embed { display:block; margin:5px auto; }
+.alignright { margin:0px 0px 5px 10px; float:right; }
+.alignleft { margin:0px 10px 5px 0px; float:left; }
+.txtPost ol,
+.txtPost ul { margin-left:25px; }
+.txtPost li { margin-bottom:5px; }
+
+.thumbCapa { float:right; margin:0 0 10px 10px; }
+.btContinuarLendo { text-indent:-5000px; overflow:hidden; background:url(imagens/btContinuarLendo.png) no-repeat top left; width:154px; height:35px; }
+.btContinuarLendo a { width:154px; height:35px; display:block; }
+
+.AdSenseTopPost { margin:15px 0; text-align:center; }
+
+.metaPost { border-top:1px solid #F4F4F4; margin-top:10px; padding-top:10px; position:relative; width:630px; font:normal 15px 'Terminal Dosis Light', arial, serif; }
+.dataPost { border-right:1px solid #F4F4F4; padding-right:15px; margin-right:30px; float:left; width:125px; }
+.dataPost span { font-size:60px; line-height:50px; }
+.infos { margin-left:145px; }
+.autorPost { margin-top:10px; }
+.autorPost a { color:#F90; }
+.autorPost img { float:left; margin-right:10px; }
+.autorPost h3 { font:normal 25px 'Terminal Dosis Light', arial, serif; }
+.autorPost h3 a { color:#333; }
+
+#BannerPosPost { width:630px; height:250px; float:none; clear:both; border-bottom:5px solid #F4F4F4; margin-bottom:20px; padding-bottom:20px; }
+#BannerPosPost div { float:left; width:300px; height:250px; }
+#BannerPosPost .quadrado2 { margin-left:28px; }
+
+.postsRelacionados,
+#Comentarios { margin-top:20px; }
+
+.postsRelacionados h3,
+#Comentarios h3 { font:normal 25px 'Terminal Dosis Light', arial, serif; }
+
+.postsRelacionados ul { margin:10px 0 15px 0; }
+.postsRelacionados ul li { padding:8px 0; margin:8px 0; list-style:none; border-bottom:1px solid #F4F4F4; }
+.postsRelacionados ul li a { color:#666; }
+
+#Navegacao { clear:both; position:relative; width:630px; height:40px; float:left; padding-bottom:10px; }
+#Navegacao p { font-size:24px; font-style:italic; text-transform:lowercase; }
+#Navegacao a { color:#CCC; }
+#Navegacao .anteriores { position:absolute; left:0; } 
+#Navegacao .recentes { position:absolute; right:0; } 
+
+#Sidebar { width:300px; float:right; margin-bottom:20px; }
+#Sidebar h3 { font:normal 20px 'Terminal Dosis Light', arial, serif; background:url(imagens/bg-tt-sidebar.gif) no-repeat top left; text-align:right; text-transform:uppercase; padding:6px 10px 10px 0; margin-bottom:5px; }
+
+.segundoColuna { margin-top:20px; } /* Segundo banner quadrado da sidebar */
+
+#PostsRecentes,
+#BannerRSS,
+#Facebook,
+#GPlus,
+#FiltroPosts,
+#SitesBacanas,
+#Blogroll,
+#Tags { margin-top:20px; clear:both; }
+
+#PostsRecentes li { border-bottom:1px solid #F4F4F4; margin-bottom:15px; padding-bottom:15px; width:300px; float:left; clear:both; list-style:none; line-height:22px; }
+#PostsRecentes li img { float:right; margin-left:10px; }
+#PostsRecentes li a { color:#333; }
+
+#FiltroPosts p { margin-top:15px; }
+#FiltroPosts select { width:150px; }
+
+#SitesBacanas p { clear:both; margin-bottom:10px; }
+#SitesBacanas li { list-style:none; width:65px; height:65px; margin:5px 10px 5px 0; float:left; }
+
+#Blogroll li { list-style:none; border-bottom:1px solid #F4F4F4; padding:8px 0; margin:8px 0; }
+#Blogroll li a { color:#333; }
+
+#Tags { clear:both; padding-top:0; }
+#Tags div { text-align:center; }
+#Tags a { color:#C4C4C4; margin:2px; }
+
+
+#SuperBanner { margin:20px auto; width:728px; height:90px; float:none; clear:both;  }
+
+
+/* FOOTER */
+#Footer { clear:both; float:none; background-color:#F4F4F4; margin-bottom:10px; font-size:12px; }
+#Footer div { background:url(imagens/icone-numclique-rodape.png) no-repeat center left; text-align:right; width:960px; padding:18px 0; margin:0 auto; }
+#Footer a { color:#F90; }
+
+
+/* CONTATO */
+.pgContato { font-size:11px; }
+.pgContato p { margin-bottom:10px; }
+#ctForm { width:460px; margin:0 auto; text-align:right; }
+#ctForm p { margin:10px 0 5px 0; color:#666; }
+#ctForm input { width:300px; height:20px; padding:2px; border:1px solid #666; font:12px "Trebuschet MS",Verdana, Arial, Helvetica, sans-serif; color:#333; }
+#ctForm input#ctDDD { width:50px; text-align:center; }
+#ctForm input#ctFone { width:240px; }
+#ctForm input#btEnviarCt { width:150px; height:35px; position:relative; left:0; cursor:pointer; }
+#nome { margin-left:35px; }
+#fone { margin-left:32px; }
+#email { margin-left:32px; }
+#url { margin-left:23px; }
+#assunto { margin-left:24px; }
+#mensagem { float:left; margin:0 5px 0 7px; position:relative; left:65px; }
+#ctForm #ctMsgs { width:300px; height:200px; padding:2px; border:1px solid #666; font:12px "Trebuschet MS",Verdana, Arial, Helvetica, sans-serif; color:#333; }
+p.legenda { font:italic 11px Verdana, Arial, Helvetica, sans-serif; color:#999; margin-left:30px; }
